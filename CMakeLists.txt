@@ -46,7 +46,7 @@ include(CMakePackageConfigHelpers)
 
 set(FASTFLOAT_VERSION_CONFIG "${CMAKE_CURRENT_BINARY_DIR}/module/FastFloatConfigVersion.cmake")
 set(FASTFLOAT_PROJECT_CONFIG "${CMAKE_CURRENT_BINARY_DIR}/module/FastFloatConfig.cmake")
-set(FASTFLOAT_INSTALL_DIR "share/FastFloat")
+set(FASTFLOAT_INSTALL_DIR "cmake")
 
 write_basic_package_version_file("${FASTFLOAT_VERSION_CONFIG}" VERSION ${PROJECT_VERSION} COMPATIBILITY SameMajorVersion)
 configure_package_config_file("cmake/config.cmake.in"
