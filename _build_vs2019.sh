@@ -1,5 +1,5 @@
 #!/bin/bash
-TARGET=fmt_11_0_2
+TARGET=fast_float
 TARGET_CMAKE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 TARGET_SOURCE_DIR=${TARGET_CMAKE_DIR}
 
